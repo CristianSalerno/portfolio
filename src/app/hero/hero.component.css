@@ -1,0 +1,55 @@
+header{
+    min-height: 100vh;
+}
+
+
+header .hero_img{
+    background-image:url("../../assets/my.jpg");
+    height: 100vh;
+    opacity:1;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: rgba(79, 0, 0, 0.173);
+}
+
+header h1,h3{
+    text-align: center;
+    padding: 10px;
+    margin-left: 140px;
+}
+header h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+header h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header .title{
+    opacity: none;
+    width:50%;
+    padding: 10%;
+    float: left;
+}
+header .sections {
+    width:50%;
+    padding:10%;    
+    float: right;
+    float: right;
+}
+
+header .sections ul li {
+    display:block;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 60px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+header .sections ul li:hover{
+    border-left: 1px solid black;
+    transition: 3s;
+}

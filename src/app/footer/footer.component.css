@@ -1,0 +1,10 @@
+footer{
+    background:black;
+    color:white;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}

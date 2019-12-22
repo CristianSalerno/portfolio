@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');

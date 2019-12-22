@@ -1,0 +1,18 @@
+<header>
+    <div class="flex">
+        <div class="hero_img" @fade>
+            <div class="title row">
+                <h1 class="shake">Cristian Salerno</h1>
+                <h3>Fullstack developer</h3>
+            </div>
+            <div class="sections row">
+                <ul *ngFor="let item of arrItems">
+                    <li>{{item[0]}}</li>
+                    <li>{{item[1]}}</li>
+                    <li>{{item[2]}}</li>
+                    <li>{{item[3]}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
