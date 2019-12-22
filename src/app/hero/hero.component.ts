@@ -9,7 +9,7 @@ import * as AOS from 'aos';
   animations: [trigger('fade', [
     transition('void => *', [
       style({ opacity: .5 }),
-      animate(3000, style({ opacity: 1 })),
+      animate(2000, style({ opacity: 1 })),
     ]),
   ])],
 })
@@ -21,7 +21,7 @@ export class HeroComponent implements OnInit {
   }
 
   ngOnInit() {
-    AOS.init();
+    AOS.init()
   }
 
 }
