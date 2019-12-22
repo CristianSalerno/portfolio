@@ -4,7 +4,7 @@ header{
 
 
 header .hero_img{
-    background-image:url("../../assets/my.jpg");
+    background-image:url("../../assets/my2.jpg");
     height: 100vh;
     opacity:1;
     background-position: center;
@@ -13,10 +13,6 @@ header .hero_img{
     background-color: #fff;
 }
 
-header h1,h3{
-    text-align: center;
-    padding: 10px;
-}
 header h1{
     font-weight: 600;
     font-size: 50px;
@@ -48,7 +44,3 @@ header .sections ul li {
     font-weight: 300;
 }
 
-header .sections ul li:hover{
-    border-left: 1px solid black;
-    transition: 1s;
-}

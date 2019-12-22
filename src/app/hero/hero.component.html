@@ -7,7 +7,7 @@
             </div>
             <div class="sections row">
                 <ul *ngFor="let item of arrItems">
-                    <li data-aos="fade-left" data-aos-duration="2000">{{item[0]}}</li>
+                    <li data-aos="fade-left" data-aos-duration="2000" data-toggle="modal" data-target="#exampleModal" [routerLink]="['projects']">{{item[0]}}</li>
                     <li data-aos="fade-right" data-aos-duration="2000">{{item[1]}}</li>
                     <li data-aos="fade-left" data-aos-duration="2000">{{item[2]}}</li>
                     <li data-aos="fade-right" data-aos-duration="2000">{{item[3]}}</li>
@@ -16,3 +16,4 @@
         </div>
     </div>
 </header>
+
