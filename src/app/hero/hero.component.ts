@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, state, style, animate } from '@angular/animations';
-
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-hero',
@@ -17,14 +17,11 @@ export class HeroComponent implements OnInit {
 
   arrItems: any[];
   constructor() {
-
+    this.arrItems = new Array(["Projects", "Experience", "Github", "Contact"])
   }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.arrItems = new Array(["Projects", "Experience", "Github", "Contact"])
-    }, 2000)
-
+    AOS.init();
   }
 
 }
