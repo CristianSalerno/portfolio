@@ -1,18 +1,15 @@
- .modal{
-    padding: 20px;
- }
 
- .modal .modal-content{
-    border:none;
- }
- 
  .card {
     width:100%;
     height: 100%;
     padding: 20px;
+    margin:10px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     cursor:pointer;
+    border:none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 .card ul li{
    display: inline-block;
@@ -21,6 +18,16 @@
    cursor: pointer;
    font-weight: 300;
 }
+
+.card ul li a {
+   text-decoration: none;
+   color:black;
+   font-weight: 600;
+}
+.card ul li a:hover {
+   text-decoration: line-through;
+}
+
 .card p{
    font-weight: 300;
 }

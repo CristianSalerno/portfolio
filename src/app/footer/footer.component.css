@@ -1,10 +1,38 @@
 footer{
-    background:black;
-    color:white;
+    background:#fff;
+    color:black;
+    border-top: 2px solid rgb(204,204,204);
+}
+
+footer p{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 footer ul li {
     display: inline-block;
     padding: 20px;
     cursor: pointer;
+}
+footer ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer ul li:hover{
+    text-decoration: line-through;
+}
+
+footer img{
+    width:25px;
+    height: 25px;   
+}
+
+footer .made{
+    align-items: center;
+    padding: 20px;
+    margin:5px;
 }
