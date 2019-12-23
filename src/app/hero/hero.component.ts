@@ -30,7 +30,7 @@ export class HeroComponent implements OnInit {
   scrollSkills() {
     setTimeout(() => {
       window.scrollTo({
-        top: 1350,
+        top: 1700,
         behavior: 'smooth',
       })
     }, 100)
@@ -43,5 +43,11 @@ export class HeroComponent implements OnInit {
         behavior: 'smooth',
       })
     }, 100)
+  }
+  scrollContact(e){
+    window.scrollTo({
+      top: 3000,
+        behavior: 'smooth',
+    })
   }
 }

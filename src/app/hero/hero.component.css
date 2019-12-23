@@ -1,8 +1,3 @@
-header{
-    min-height: 100vh;
-}
-
-
 header .hero_img{
     background-image:url("../../assets/my2.jpg");
     height: 100vh;
@@ -50,11 +45,3 @@ text-decoration: line-through;
 }
         
 
-@media (max-width: 600px) {
-    header .hero_img{
-        opacity:1;
-        background-image:url("../../assets/pixel.jpg");
-        background-color: #fff;
-        transition: 1s;
-    }
-}
