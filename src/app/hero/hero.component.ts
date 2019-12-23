@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, state, style, animate } from '@angular/animations';
 import * as AOS from 'aos';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-hero',
@@ -16,12 +17,22 @@ import * as AOS from 'aos';
 export class HeroComponent implements OnInit {
 
   arrItems: any[];
-  constructor() {
-    this.arrItems = new Array(["Projects", "Experience", "Github", "Contact"])
+
+  constructor(private router: Router) {
+    this.arrItems = new Array(["Projects", "Skills", "Github", "Contact"])
   }
 
   ngOnInit() {
     AOS.init()
   }
 
+
+  scroll() {
+    setTimeout(() => {
+      window.scrollTo({
+        top: 700,
+        behavior: 'smooth',
+      })
+    }, 1000)
+  }
 }
