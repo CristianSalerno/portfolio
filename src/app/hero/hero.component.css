@@ -1,8 +1,6 @@
 header{
     min-height: 100vh;
 }
-
-
 header .hero_img{
     background-image:url("../../assets/my2.jpg");
     height: 100vh;
@@ -25,24 +23,16 @@ header h3{
 header .title{
     opacity: none;
     width:50%;
-    padding: 10%;
-    float: left;
 }
 header .sections {
-    width:50%;
-    padding:10%;    
-    float: right;
-    float: right;
+    width:50%;  
 }
 
 header .sections ul li {
     display:block;
     font-size: 20px;
     font-weight: 300;
-    padding:20px;
-    margin:20%;
     cursor: pointer;
-    font-weight: 300;
 
 }
 
