@@ -63,14 +63,14 @@ text-decoration: line-through;
 
 @media (max-width:812px){
     header {
-        padding-top: 7vh;
+        padding-top: 5vh;
     }
     header .sections ul li{
         margin:5px;
         font-size:15px;
     }
     header .sections ul {
-        margin-top:190px;
+        margin-top:175px;
         padding:5px; 
     }
 }
