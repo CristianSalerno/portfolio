@@ -27,27 +27,4 @@ export class HeroComponent implements OnInit {
   }
 
 
-  scrollSkills() {
-    setTimeout(() => {
-      window.scrollTo({
-        top: 1700,
-        behavior: 'smooth',
-      })
-    }, 100)
-  }
-
-  scrollProjects() {
-    setTimeout(() => {
-      window.scrollTo({
-        top: 750,
-        behavior: 'smooth',
-      })
-    }, 100)
-  }
-  scrollContact() {
-    window.scrollTo({
-      top: 3000,
-      behavior: 'smooth',
-    })
-  }
 }

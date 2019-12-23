@@ -9,9 +9,9 @@
                     </div>
                     <div class="sections float-right">
                         <ul *ngFor="let item of arrItems" data-aos="fade-right" data-aos-duration="350">
-                            <li (click)="scrollProjects()">{{item[0]}}</li>
-                            <li (click)="scrollSkills()">{{item[1]}}</li>
-                            <li (click)="scrollContact()">{{item[2]}}</li>
+                            <li><a href="#projects"> {{item[0]}}</a> </li>
+                            <li><a href="#skills">{{item[1]}}</a> </li>
+                            <li><a href="#contact">{{item[2]}}</a></li>
                         </ul>
                     </div>
                 </div>

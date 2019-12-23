@@ -41,4 +41,13 @@ height: 100vh;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     padding: 30px;
 }
-    
+
+#send{
+    font-weight: 300;
+    margin:10px;
+}
+
+#send:hover{
+    background:rgba(0, 0, 0, 0.112);
+    transition: .5;
+}

@@ -10,6 +10,20 @@
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 }
+.ts{
+   width:40px;
+   height: 40px;
+   margin:10px;
+}
+
+.card .tech{
+   margin:10px;
+}
+.card .tech img{
+   width:25px;
+   height: 25px;
+   margin:10px;
+}
 .card ul li{
    display: inline-block;
    margin:10px;

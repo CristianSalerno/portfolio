@@ -30,14 +30,21 @@ header .sections {
 }
 
 header .sections ul li {
+    list-style: none;
+}
+
+header .sections ul li a {
     display:block;
     font-size: 25px;
     font-weight: 300;
     padding:10px;
     margin:10%;
     cursor: pointer;
+    text-decoration: none;
+    color:black;
 
 }
+
 
 header .sections ul li:nth-child(1){
     -webkit-transform: rotate(-10deg);
@@ -49,14 +56,21 @@ header .sections ul li:nth-child(3){
 header .sections ul li:hover{
 text-decoration: line-through;
 }
-        
 
-@media (max-width:736px){
+
+
+
+
+@media (max-width:812px){
+    header {
+        padding-top: 7vh;
+    }
     header .sections ul li{
         margin:5px;
+        font-size:15px;
     }
     header .sections ul {
-        margin-top:140%;
+        margin-top:190px;
         padding:5px; 
     }
 }
