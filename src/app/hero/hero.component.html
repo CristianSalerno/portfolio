@@ -6,7 +6,7 @@
                 </div>
             <div class="sections float-right">
                 <ul *ngFor="let item of arrItems">
-                    <li data-aos="fade-left" data-aos-duration="2000" data-toggle="modal" data-target="#exampleModal" (click)="scrollProjects()">{{item[0]}}</li>
+                    <li data-aos="fade-left" data-aos-duration="2000" (click)="scrollProjects()">{{item[0]}}</li>
                     <li data-aos="fade-right" data-aos-duration="2000" (click)="scrollSkills()">{{item[1]}}</li>
                     <li data-aos="fade-left" data-aos-duration="2000" (click)="scrollContact($event)">{{item[3]}}</li>
                 </ul>

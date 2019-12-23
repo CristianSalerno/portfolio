@@ -53,12 +53,12 @@ text-decoration: line-through;
 }
         
 
-@media (max-width:500px){
+@media (max-width:736px){
     header .sections ul li{
         margin:5px;
     }
     header .sections ul {
-        margin-top:80%;
+        margin-top:140%;
         padding:5px; 
     }
 }
