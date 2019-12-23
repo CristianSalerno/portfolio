@@ -3,18 +3,17 @@
         <header class="col-12 col-sm-12 col-md-12">
             <div class="flex">
                 <div class="hero_img" @fade>
-                    <div class="title float-left" data-aos="fade-down" data-aos-duration="3000">
+                    <div class="title float-left" data-aos="fade-down" data-aos-duration="300">
                         <h1>Cristian Salerno</h1>
                         <h3>Full-Stack developer</h3>
                     </div>
                     <div class="sections float-right">
                         <ul *ngFor="let item of arrItems">
-                            <li data-aos="fade-left" data-aos-duration="2000" data-toggle="modal"
+                            <li data-aos="fade-left" data-aos-duration="350" data-toggle="modal"
                                 data-target="#exampleModal" (click)="scrollProjects()">{{item[0]}}</li>
-                            <li data-aos="fade-right" data-aos-duration="2000" (click)="scrollSkills()">{{item[1]}}
+                            <li data-aos="fade-right" data-aos-duration="350" (click)="scrollSkills()">{{item[1]}}
                             </li>
-                            <li data-aos="fade-left" data-aos-duration="2000">{{item[2]}}</li>
-                            <li data-aos="fade-right" data-aos-duration="2000">{{item[3]}}</li>
+                            <li data-aos="fade-left" data-aos-duration="350">{{item[2]}}</li>
                         </ul>
                     </div>
                 </div>

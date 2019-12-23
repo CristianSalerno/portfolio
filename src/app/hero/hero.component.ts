@@ -19,7 +19,7 @@ export class HeroComponent implements OnInit {
   arrItems: any[];
 
   constructor(private router: Router) {
-    this.arrItems = new Array(["projects", "skills", "github", "contact"])
+    this.arrItems = new Array(["projects", "skills", "contact", "contact"])
   }
 
   ngOnInit() {
@@ -30,18 +30,24 @@ export class HeroComponent implements OnInit {
   scrollSkills() {
     setTimeout(() => {
       window.scrollTo({
-        top: 1350,
+        top: 1700,
         behavior: 'smooth',
       })
     }, 100)
   }
 
-  scrollProjects(){
+  scrollProjects() {
     setTimeout(() => {
       window.scrollTo({
         top: 750,
         behavior: 'smooth',
       })
     }, 100)
+  }
+  scrollContact(e) {
+    window.scrollTo({
+      top: 3000,
+      behavior: 'smooth',
+    })
   }
 }

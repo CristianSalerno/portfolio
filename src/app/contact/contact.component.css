@@ -1,0 +1,44 @@
+.container{
+height: 100vh;
+}
+.container form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:20px;
+    margin:5px;
+    align-items: center;
+}
+
+.container form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin:5px;
+}
+
+.container form input{
+    color:#8a8a8a;
+	display: block;
+	width: 90%;
+	height: 44px;
+	padding: 5px 5%;
+	border:1px solid #ccc;
+	-moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background-clip: padding-box;
+	background-color: #fff;
+}
+
+
+.container form textarea{
+    width: 90%;
+    border:1px solid #ccc;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 30px;
+}
+    
