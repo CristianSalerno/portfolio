@@ -8,12 +8,10 @@
                         <h3>Full-Stack developer</h3>
                     </div>
                     <div class="sections float-right">
-                        <ul *ngFor="let item of arrItems">
-                            <li data-aos="fade-left" data-aos-duration="350" data-toggle="modal"
-                                data-target="#exampleModal" (click)="scrollProjects()">{{item[0]}}</li>
-                            <li data-aos="fade-right" data-aos-duration="350" (click)="scrollSkills()">{{item[1]}}
-                            </li>
-                            <li data-aos="fade-left" data-aos-duration="350" (click)="scrollContact()">{{item[2]}}</li>
+                        <ul *ngFor="let item of arrItems" data-aos="fade-right" data-aos-duration="350">
+                            <li (click)="scrollProjects()">{{item[0]}}</li>
+                            <li (click)="scrollSkills()">{{item[1]}}</li>
+                            <li (click)="scrollContact()">{{item[2]}}</li>
                         </ul>
                     </div>
                 </div>
