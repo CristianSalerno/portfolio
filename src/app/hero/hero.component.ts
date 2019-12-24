@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   animations: [trigger('fade', [
     transition('void => *', [
       style({ opacity: .5 }),
-      animate(350, style({ opacity: 1 })),
+      animate(600, style({ opacity: 1 })),
     ]),
   ])],
 })

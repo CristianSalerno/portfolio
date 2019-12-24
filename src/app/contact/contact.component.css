@@ -1,6 +1,9 @@
 .container{
 height: 100vh;
 }
+.container h3{
+    text-decoration: underline;
+}
 .container form {
     display: flex;
     flex-wrap: wrap;

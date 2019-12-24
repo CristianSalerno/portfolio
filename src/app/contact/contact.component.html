@@ -1,13 +1,13 @@
 <div class="container">
-    <h2 class="text-center" data-aos="fade-down" data-aos-duration="350">get in touch</h2>
+    <h3 class="p-5 mt-5" data-aos="fade-down" data-aos-duration="350">get in touch</h3>
     <div class="row" data-aos="fade-down">
         <div class="col-12 col-sm-12 col-md-12">
-            <form>
-                <input type="text" placeholder="name">
+            <form [formGroup]="contact" (ngSubmit)="send()">
+                <input type="text" placeholder="name" formControlName="name">
                 <label></label>
-                <input type="text" placeholder="email">
+                <input type="text" placeholder="email" formControlName="email">
                 <hr>
-                <textarea cols="30" rows="10" placeholder="Write a message"></textarea>
+                <textarea cols="30" rows="10" placeholder="Write a message" formControlName="message"></textarea>
                 <input type="submit" value="send" id="send">
             </form>
         </div>

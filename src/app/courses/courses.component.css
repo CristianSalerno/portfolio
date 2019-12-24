@@ -1,0 +1,33 @@
+.container h3{
+    text-decoration:underline;
+}
+
+.card-box {
+    width:100%;
+    padding:40px;
+    margin:20px;
+}
+
+.card-box h3,p{
+    margin:10px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.card-box a{
+    font-size: 14px;
+    color:black;
+    text-decoration: underline;
+}
+
+
+.card-box p a {
+    font-weight: 600;
+}
+
+.card-box img {
+    width:25px;
+    height: 25px;
+    margin-bottom: 10px;
+}

@@ -11,6 +11,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { CertificationsComponent } from './certifications/certifications.component';
+import { CoursesComponent } from './courses/courses.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,15 @@ import { CertificationsComponent } from './certifications/certifications.compone
     ProjectsComponent,
     SkillsComponent,
     ContactComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
