@@ -57,6 +57,7 @@ header .sections ul li:hover{
 text-decoration: line-through;
 }
 
+<<<<<<< HEAD
         @media (max-width:672px){
     header .sections ul li .scroll{
         display: inline-block;
@@ -65,6 +66,23 @@ text-decoration: line-through;
     }
     header .sections ul li{
         display:none;
+=======
+
+
+
+
+@media (max-width:812px){
+    header {
+        padding-top: 5vh;
+    }
+    header .sections ul li{
+        margin:5px;
+        font-size:15px;
+    }
+    header .sections ul {
+        margin-top:175px;
+        padding:5px; 
+>>>>>>> c5b284804b97dba3eba775626600fd8eb2cd0170
     }
     
 }
