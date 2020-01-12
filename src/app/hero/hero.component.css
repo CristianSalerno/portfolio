@@ -57,16 +57,14 @@ header .sections ul li:hover{
 text-decoration: line-through;
 }
 
-@media (max-width:812px){
-    header {
-        padding-top: 7vh;
+        @media (max-width:672px){
+    header .sections ul li .scroll{
+        display: inline-block;
+        padding:20px;
+        margin:20px;
     }
     header .sections ul li{
-        margin:5px;
-        font-size:15px;
+        display:none;
     }
-    header .sections ul {
-        margin-top:160px;
-        padding:5px; 
-    }
+    
 }
