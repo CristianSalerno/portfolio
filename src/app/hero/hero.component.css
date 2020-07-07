@@ -58,7 +58,13 @@ text-decoration: line-through;
 }
 
 
+.row:after {
+	content:””;
+	clear:both;
+	height:0px;
+	display:block;
 
+}
 
 
 @media (max-width:812px){
@@ -70,5 +76,17 @@ text-decoration: line-through;
     }
     header .section h1,h3{
         margin:20px;
+    }
+}
+@media (max-width:411px){
+    .container .row .title h1{
+        font-size:20px;
+        display: inline-block;
+
+    }
+    .container .row .title h3{
+        font-size:15px;
+        display: inline-block;
+        
     }
 }

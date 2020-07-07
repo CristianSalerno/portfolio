@@ -1,0 +1,27 @@
+.flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.flex h3{
+    text-decoration: underline;
+}
+
+.card{
+    padding:5%;
+    margin:10px;
+}
+
+.card img{
+    max-width: 25%;
+    max-height: 15%;
+    margin-bottom: 40px;
+}
+
+.card h6,p{
+    padding:15px;
+}
+.card h6{
+    text-decoration: underline;
+}
